@@ -1,0 +1,12 @@
+Dissertation research code
+Copyright 2026 Yulin Li
+
+Original research implementation: Apache License, Version 2.0.
+
+Bundled third-party components:
+- The selected DADP/CleanDiffuser modules in
+  paper_2/work2/vendor/DADP_official retain their Apache-2.0 license.
+  See paper_2/THIRD_PARTY_NOTICES.md and the bundled LICENCE.txt.
+- The selected BSM backend modules in paper_3/bsm2_python retain their
+  BSD-3-Clause license, Copyright (c) 2025, FAU-EVT.
+  See paper_3/BSM2_LICENSE.

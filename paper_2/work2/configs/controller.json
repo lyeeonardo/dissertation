@@ -1,0 +1,44 @@
+{
+  "evidence_temperature": 0.007242573030413831,
+  "posture_coefficient": 4.0567890408452785,
+  "hazard": 0.06,
+  "discount": 0.99,
+  "reference_speeds": {
+    "0": 11.636156105840579,
+    "1": 8.297324569576856,
+    "2": 12.00889701702782,
+    "3": 9.769184924068977,
+    "4": 3.6613822005899856,
+    "5": 3.58466789147933,
+    "6": 2.5150131921165158,
+    "7": 3.567509142649709
+  },
+  "baseline_configs": {
+    "history": {
+      "horizon": 8,
+      "candidates": 32,
+      "task_samples": 8,
+      "evidence_samples": 16,
+      "sampling_steps": 8,
+      "temperature": 1.0,
+      "hazard": 0.01,
+      "discount": 0.99,
+      "information_weight": 0.0,
+      "information_draws": 64,
+      "chunk_size": 256
+    },
+    "dadp": {
+      "horizon": 8,
+      "candidates": 32,
+      "task_samples": 8,
+      "evidence_samples": 16,
+      "sampling_steps": 8,
+      "temperature": 1.0,
+      "hazard": 0.01,
+      "discount": 0.99,
+      "information_weight": 0.0,
+      "information_draws": 64,
+      "chunk_size": 256
+    }
+  }
+}

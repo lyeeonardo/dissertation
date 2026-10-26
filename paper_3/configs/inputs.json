@@ -1,0 +1,56 @@
+[
+  {
+    "path": "models/joint_diffusion.pt",
+    "bytes": 30900655,
+    "sha256": "c4847074df71a1c567823c3c26d354147a3219ec95d31ad0be2192ead6ed09c0",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "models/stock_han.pt",
+    "bytes": 446407,
+    "sha256": "9bba4d47d6cc30fdca7962f7e33c728b67d3bb26347f557a5b7f7a139fd854bb",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "models/stock_yang.pt",
+    "bytes": 1527847,
+    "sha256": "ceb98a2e196577da7b3d76ca1dfee8c5ebf2130035499455dc98923a02267a30",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "forcing/Inf_dry_2006.txt",
+    "bytes": 113426,
+    "sha256": "2a3776651012d004835870dde73857acec36202efb86ba69f589d6b4fb7601e0",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "forcing/Inf_rain_2006.txt",
+    "bytes": 114634,
+    "sha256": "c84a4e49d8c0f9bea27a427f528cd00344575c19900c8813eeffb66b0d1f5dd7",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "forcing/Inf_strm_2006.txt",
+    "bytes": 116425,
+    "sha256": "8e600c737710767da0116283bab5ba567c9b5114c5859faeb7383ed962b72c65",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "training/train.npz",
+    "bytes": 860960085,
+    "sha256": "9d396d74adfe58b8ac1c144bb46e59e454e0686c7b7fdef9295cdddfc595296b",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "training/validation.npz",
+    "bytes": 124075330,
+    "sha256": "8d92f85b7b680f4cec04b2324adaf8fa79bdfdd0623e801911cd60d454346442",
+    "purpose": "reference identity for a user-supplied or generated input"
+  },
+  {
+    "path": "training/calibration.npz",
+    "bytes": 77758646,
+    "sha256": "dea8ce1967cdbb7aec0a591bf51bf39e1d948af3ae2964d8ccebedf6f67e3406",
+    "purpose": "reference identity for a user-supplied or generated input"
+  }
+]

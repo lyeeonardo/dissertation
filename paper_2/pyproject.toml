@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genaif-dissertation-work2"
+version = "1.0.0"
+description = "Final Chapter 4 locomotion controllers, fitting, and evaluation protocols"
+license = "Apache-2.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.4.4", "torch==2.13.0", "gymnasium==1.2.3", "mujoco==3.7.0", "scipy==1.17.1", "h5py==3.16.0", "stable-baselines3==2.8.0", "tqdm==4.67.3", "einops==0.8.2"]
+
+[project.scripts]
+work2-evaluate = "work2.run:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["work2*"]
+
+[tool.setuptools.package-data]
+work2 = ["configs/*.json", "collection/*.json", "vendor/**/*", "required_assets.json"]

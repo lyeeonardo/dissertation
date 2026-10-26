@@ -1,0 +1,6 @@
+{
+  "name": "flow_feedforward",
+  "do_target": 3.0,
+  "no_target": 2.0,
+  "flow_feedforward": 0.35
+}

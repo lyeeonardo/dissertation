@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "calibration_parent_ids": [
+    "validation_p003",
+    "validation_p004",
+    "validation_p005"
+  ],
+  "calibration_policy": "Parent-disjoint from TRAIN/modelVAL in this freeze; historical VAL previously used, not a newly untouched holdout",
+  "jobs": [
+    {
+      "episode_id": 1092,
+      "parent_id": "validation_p003",
+      "parent_number": 23,
+      "split": "calibration",
+      "weather": "dry",
+      "behavior": "nominal_pi",
+      "behavior_seed": 44430,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1093,
+      "parent_id": "validation_p003",
+      "parent_number": 23,
+      "split": "calibration",
+      "weather": "dry",
+      "behavior": "development_expert",
+      "behavior_seed": 44449,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1094,
+      "parent_id": "validation_p003",
+      "parent_number": 23,
+      "split": "calibration",
+      "weather": "dry",
+      "behavior": "perturbed_expert",
+      "behavior_seed": 44468,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1095,
+      "parent_id": "validation_p003",
+      "parent_number": 23,
+      "split": "calibration",
+      "weather": "dry",
+      "behavior": "boundary_holds",
+      "behavior_seed": 44487,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1096,
+      "parent_id": "validation_p004",
+      "parent_number": 24,
+      "split": "calibration",
+      "weather": "rain",
+      "behavior": "nominal_pi",
+      "behavior_seed": 46361,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1097,
+      "parent_id": "validation_p004",
+      "parent_number": 24,
+      "split": "calibration",
+      "weather": "rain",
+      "behavior": "development_expert",
+      "behavior_seed": 46380,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1098,
+      "parent_id": "validation_p004",
+      "parent_number": 24,
+      "split": "calibration",
+      "weather": "rain",
+      "behavior": "perturbed_expert",
+      "behavior_seed": 46399,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1099,
+      "parent_id": "validation_p004",
+      "parent_number": 24,
+      "split": "calibration",
+      "weather": "rain",
+      "behavior": "boundary_holds",
+      "behavior_seed": 46418,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1100,
+      "parent_id": "validation_p005",
+      "parent_number": 25,
+      "split": "calibration",
+      "weather": "storm",
+      "behavior": "nominal_pi",
+      "behavior_seed": 48292,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1101,
+      "parent_id": "validation_p005",
+      "parent_number": 25,
+      "split": "calibration",
+      "weather": "storm",
+      "behavior": "development_expert",
+      "behavior_seed": 48311,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1102,
+      "parent_id": "validation_p005",
+      "parent_number": 25,
+      "split": "calibration",
+      "weather": "storm",
+      "behavior": "perturbed_expert",
+      "behavior_seed": 48330,
+      "source_split": "validation"
+    },
+    {
+      "episode_id": 1103,
+      "parent_id": "validation_p005",
+      "parent_number": 25,
+      "split": "calibration",
+      "weather": "storm",
+      "behavior": "boundary_holds",
+      "behavior_seed": 48349,
+      "source_split": "validation"
+    }
+  ]
+}

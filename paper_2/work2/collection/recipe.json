@@ -1,0 +1,227 @@
+{
+  "solver_config": {
+    "seed": 13,
+    "workers": 4,
+    "batch_size": 512,
+    "learning_rate": 0.0003,
+    "network": [
+      256,
+      256
+    ],
+    "gamma": 0.99,
+    "warmup_steps": 10000,
+    "replay_capacity": 1000000,
+    "eval_interval": 100000,
+    "min_steps": 1000000,
+    "max_steps": 3000000,
+    "plateau_patience": 5,
+    "plateau_relative_improvement": 0.01,
+    "dev_episodes": 5,
+    "qualification_episodes": 10,
+    "episode_steps": 1000,
+    "min_each_speed": 1.0,
+    "improvement_absolute": 100.0,
+    "improvement_fraction": 0.05,
+    "dadp_multiplier": 1.05,
+    "qualification_min_paired_wins": 8,
+    "threads": 2
+  },
+  "solver_cells": [
+    {
+      "id": "g3_c6",
+      "gravity": 3.0,
+      "condition": 6,
+      "train_seed_base": 431020000,
+      "dev_seeds": [
+        441020000,
+        441020001,
+        441020002,
+        441020003,
+        441020004
+      ],
+      "qualification_seeds": [
+        451020000,
+        451020001,
+        451020002,
+        451020003,
+        451020004,
+        451020005,
+        451020006,
+        451020007,
+        451020008,
+        451020009
+      ],
+      "old_teacher_identity": {
+        "bytes": 3242425,
+        "sha256": "1ea989f470bdb5b3cae7d5db07a733d73807df3de12e8a63c490697be1324c0a"
+      },
+      "dadp_reference_return": 3281.5467465348584
+    },
+    {
+      "id": "g3_c4",
+      "gravity": 3.0,
+      "condition": 4,
+      "train_seed_base": 431000000,
+      "dev_seeds": [
+        441000000,
+        441000001,
+        441000002,
+        441000003,
+        441000004
+      ],
+      "qualification_seeds": [
+        451000000,
+        451000001,
+        451000002,
+        451000003,
+        451000004,
+        451000005,
+        451000006,
+        451000007,
+        451000008,
+        451000009
+      ],
+      "old_teacher_identity": {
+        "bytes": 3242425,
+        "sha256": "3747ba2d14458e03fd8b8e7d8d1ada714ecd45fec495149bd00032761f7008a3"
+      },
+      "dadp_reference_return": 3265.886128046591
+    },
+    {
+      "id": "g3_c5",
+      "gravity": 3.0,
+      "condition": 5,
+      "train_seed_base": 431010000,
+      "dev_seeds": [
+        441010000,
+        441010001,
+        441010002,
+        441010003,
+        441010004
+      ],
+      "qualification_seeds": [
+        451010000,
+        451010001,
+        451010002,
+        451010003,
+        451010004,
+        451010005,
+        451010006,
+        451010007,
+        451010008,
+        451010009
+      ],
+      "old_teacher_identity": {
+        "bytes": 3242415,
+        "sha256": "396866530c634664c9500ebe5dde94c192a41fdfb8a85b6787937d2c3f7b5c78"
+      },
+      "dadp_reference_return": 3098.621051502801
+    },
+    {
+      "id": "g3_c7",
+      "gravity": 3.0,
+      "condition": 7,
+      "train_seed_base": 431030000,
+      "dev_seeds": [
+        441030000,
+        441030001,
+        441030002,
+        441030003,
+        441030004
+      ],
+      "qualification_seeds": [
+        451030000,
+        451030001,
+        451030002,
+        451030003,
+        451030004,
+        451030005,
+        451030006,
+        451030007,
+        451030008,
+        451030009
+      ],
+      "old_teacher_identity": {
+        "bytes": 3242415,
+        "sha256": "81768964da9df3977f31b03dbf6374a33e038d3456fa7f00a9af651342dd748b"
+      },
+      "dadp_reference_return": 3245.5349957647627
+    },
+    {
+      "id": "g5_c4",
+      "gravity": 5.0,
+      "condition": 4,
+      "train_seed_base": 432000000,
+      "dev_seeds": [
+        442000000,
+        442000001,
+        442000002,
+        442000003,
+        442000004
+      ],
+      "qualification_seeds": [
+        452000000,
+        452000001,
+        452000002,
+        452000003,
+        452000004,
+        452000005,
+        452000006,
+        452000007,
+        452000008,
+        452000009
+      ],
+      "old_teacher_identity": {
+        "bytes": 3242425,
+        "sha256": "3747ba2d14458e03fd8b8e7d8d1ada714ecd45fec495149bd00032761f7008a3"
+      },
+      "dadp_reference_return": null
+    }
+  ],
+  "original_teachers": {
+    "0": {
+      "sha256": "0775786bf6537117289218a83ef5b60d6b45fdc06e2209f4703c1637bcef6c9f",
+      "bytes": 3242423
+    },
+    "1": {
+      "sha256": "ddf12db1856338834a7e11245be273ea86cf67cc475ced0fb7ce62739ccb8688",
+      "bytes": 3242415
+    },
+    "2": {
+      "sha256": "ed2195c7ed0434a6d02a0e3f68faeed6bb88c2410f67e2a6d9a73d4501865c58",
+      "bytes": 3242425
+    },
+    "3": {
+      "sha256": "e411a69ffbc10e2ce3007ceb3a047b4ce05ef3988c532d05ec48440c7a5a6a89",
+      "bytes": 3242425
+    },
+    "4": {
+      "sha256": "3747ba2d14458e03fd8b8e7d8d1ada714ecd45fec495149bd00032761f7008a3",
+      "bytes": 3242425
+    },
+    "5": {
+      "sha256": "396866530c634664c9500ebe5dde94c192a41fdfb8a85b6787937d2c3f7b5c78",
+      "bytes": 3242415
+    },
+    "6": {
+      "sha256": "1ea989f470bdb5b3cae7d5db07a733d73807df3de12e8a63c490697be1324c0a",
+      "bytes": 3242425
+    },
+    "7": {
+      "sha256": "81768964da9df3977f31b03dbf6374a33e038d3456fa7f00a9af651342dd748b",
+      "bytes": 3242415
+    }
+  },
+  "collection_config": {
+    "seed": 13,
+    "expert_parents_per_cell": 80,
+    "recovery_parents_per_cell": 20,
+    "expert_steps": 1000,
+    "recovery_steps": 600,
+    "reset_seed_base": 471000000,
+    "physical_gravities": [
+      3,
+      5
+    ]
+  }
+}

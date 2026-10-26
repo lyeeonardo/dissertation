@@ -1,0 +1,83 @@
+{
+  "checkpoints": {
+    "shared": {
+      "filename": "shared.pt",
+      "sha256": "2d31f0c79af4b5f09bf3362bbe65b62c20ec25f4272e151004bd92ad9627006b",
+      "bytes": 549361365
+    },
+    "history": {
+      "filename": "history.pt",
+      "sha256": "876376b3256d4ff7913d1985955be79caba8904373504ba54f89e6b73c151de2",
+      "bytes": 549361833
+    },
+    "dadp": {
+      "filename": "dadp.pt",
+      "sha256": "da425d039fb574fbd859cf6fec3f86694a362f226a4be9421b5e2072c170010e",
+      "bytes": 148905887
+    }
+  },
+  "omitted": [
+    "all trained model tensors",
+    "training, calibration, and test datasets",
+    "raw episode traces"
+  ],
+  "normalization": "read from checkpoint; no hidden normalizer file",
+  "adapted_checkpoints": {
+    "shared_replay_only": {
+      "filename": "shared_replay_only.pt",
+      "sha256": "b038e03a828d6283c7e76d7766e6b95e8be981f286d6aa70ad217d18c0781e6e",
+      "bytes": 274664529,
+      "selected_update": 0
+    },
+    "shared_expert_1000": {
+      "filename": "shared_expert_1000.pt",
+      "sha256": "a60ea22a34145c04a571118f6e53ff29385b96ac5b382c91df4e93d6f7821a33",
+      "bytes": 549344123,
+      "selected_update": 100
+    },
+    "history_replay_only": {
+      "filename": "history_replay_only.pt",
+      "sha256": "a3bb3d70b81d834329ead34ed89f403482a5f96286503211104cef8a17c1a4bc",
+      "bytes": 549344059,
+      "selected_update": 100
+    },
+    "history_expert_1000": {
+      "filename": "history_expert_1000.pt",
+      "sha256": "379865e4bc0eb071f86053c5edd022676b8f97a7a8a6944082458fd8ee3a8b72",
+      "bytes": 549344059,
+      "selected_update": 100
+    },
+    "dadp_replay_only": {
+      "filename": "dadp_replay_only.pt",
+      "sha256": "1edab939ebebef25e8bb4a36efe5240a9d957abdd6fa5bda7ee8f1cd88d3862f",
+      "bytes": 206420255,
+      "selected_update": 250
+    },
+    "dadp_expert_1000": {
+      "filename": "dadp_expert_1000.pt",
+      "sha256": "2a027e0587d64d94f0a43815a4178310e1f9d3298e95576438804d90cfbccecc",
+      "bytes": 206420255,
+      "selected_update": 250
+    }
+  },
+  "support_checkpoint": {
+    "filename": "earlier_shared.pt",
+    "sha256": "50acc2d2a4acbca14f9a692cb2295cb598611994236b21fa8c86ed9409a5ff77",
+    "bytes": 549355491,
+    "purpose": "CPU evidence pilot and two earlier information-seeking pairs; original1x/1.5x bank"
+  },
+  "datasets": {
+    "original_1x_1p5x": {
+      "purpose": "Earlier100kmodel,CPU evidence,friction original comparison"
+    },
+    "base_1x_3x": {
+      "purpose": "Final source fits and256CAL anchors; lower gravity source replay"
+    },
+    "refreshed_3x": {
+      "purpose": "Final replay fitting/target-pool source replay"
+    },
+    "adaptation_pools": {
+      "purpose": "Only replay_only/expert_1000 train arms,allthreeDEVgroups"
+    }
+  }
+}

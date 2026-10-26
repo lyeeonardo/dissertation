@@ -1,0 +1,3264 @@
+{
+  "earlier": {
+    "cases": [
+      {
+        "case_id": 0,
+        "initial_condition": 0,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000000,
+        "sampling_seed": 5000000
+      },
+      {
+        "case_id": 1,
+        "initial_condition": 0,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000001,
+        "sampling_seed": 5000001
+      },
+      {
+        "case_id": 2,
+        "initial_condition": 0,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000002,
+        "sampling_seed": 5000002
+      },
+      {
+        "case_id": 6,
+        "initial_condition": 0,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 259,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000006,
+        "sampling_seed": 5000006
+      },
+      {
+        "case_id": 7,
+        "initial_condition": 0,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 251,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000007,
+        "sampling_seed": 5000007
+      },
+      {
+        "case_id": 8,
+        "initial_condition": 0,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 307,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000008,
+        "sampling_seed": 5000008
+      },
+      {
+        "case_id": 12,
+        "initial_condition": 0,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 221,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 465,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 718,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000012,
+        "sampling_seed": 5000012
+      },
+      {
+        "case_id": 13,
+        "initial_condition": 0,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 240,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 452,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 726,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000013,
+        "sampling_seed": 5000013
+      },
+      {
+        "case_id": 14,
+        "initial_condition": 0,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 225,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          },
+          {
+            "step": 484,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          },
+          {
+            "step": 729,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000014,
+        "sampling_seed": 5000014
+      },
+      {
+        "case_id": 18,
+        "initial_condition": 0,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 212,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 458,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 699,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000018,
+        "sampling_seed": 5000018
+      },
+      {
+        "case_id": 19,
+        "initial_condition": 0,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 215,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 479,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          },
+          {
+            "step": 702,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000019,
+        "sampling_seed": 5000019
+      },
+      {
+        "case_id": 20,
+        "initial_condition": 0,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 223,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 468,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 692,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000020,
+        "sampling_seed": 5000020
+      },
+      {
+        "case_id": 24,
+        "initial_condition": 0,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 301,
+            "previous_condition": 0,
+            "condition": 7,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000024,
+        "sampling_seed": 5000024
+      },
+      {
+        "case_id": 25,
+        "initial_condition": 0,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 331,
+            "previous_condition": 0,
+            "condition": 7,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000025,
+        "sampling_seed": 5000025
+      },
+      {
+        "case_id": 26,
+        "initial_condition": 0,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 289,
+            "previous_condition": 0,
+            "condition": 7,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000026,
+        "sampling_seed": 5000026
+      },
+      {
+        "case_id": 30,
+        "initial_condition": 1,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000030,
+        "sampling_seed": 5000030
+      },
+      {
+        "case_id": 31,
+        "initial_condition": 1,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000031,
+        "sampling_seed": 5000031
+      },
+      {
+        "case_id": 32,
+        "initial_condition": 1,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000032,
+        "sampling_seed": 5000032
+      },
+      {
+        "case_id": 36,
+        "initial_condition": 1,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 293,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000036,
+        "sampling_seed": 5000036
+      },
+      {
+        "case_id": 37,
+        "initial_condition": 1,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 332,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000037,
+        "sampling_seed": 5000037
+      },
+      {
+        "case_id": 38,
+        "initial_condition": 1,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 266,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000038,
+        "sampling_seed": 5000038
+      },
+      {
+        "case_id": 42,
+        "initial_condition": 1,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          },
+          {
+            "step": 461,
+            "previous_condition": 5,
+            "condition": 1,
+            "changed_bits": 4
+          },
+          {
+            "step": 693,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000042,
+        "sampling_seed": 5000042
+      },
+      {
+        "case_id": 43,
+        "initial_condition": 1,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 249,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          },
+          {
+            "step": 451,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          },
+          {
+            "step": 694,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000043,
+        "sampling_seed": 5000043
+      },
+      {
+        "case_id": 44,
+        "initial_condition": 1,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 223,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          },
+          {
+            "step": 487,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          },
+          {
+            "step": 721,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000044,
+        "sampling_seed": 5000044
+      },
+      {
+        "case_id": 48,
+        "initial_condition": 1,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          },
+          {
+            "step": 471,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 691,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000048,
+        "sampling_seed": 5000048
+      },
+      {
+        "case_id": 49,
+        "initial_condition": 1,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 216,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          },
+          {
+            "step": 467,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 717,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000049,
+        "sampling_seed": 5000049
+      },
+      {
+        "case_id": 50,
+        "initial_condition": 1,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 228,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          },
+          {
+            "step": 465,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 704,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000050,
+        "sampling_seed": 5000050
+      },
+      {
+        "case_id": 54,
+        "initial_condition": 1,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 306,
+            "previous_condition": 1,
+            "condition": 6,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000054,
+        "sampling_seed": 5000054
+      },
+      {
+        "case_id": 55,
+        "initial_condition": 1,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 286,
+            "previous_condition": 1,
+            "condition": 6,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000055,
+        "sampling_seed": 5000055
+      },
+      {
+        "case_id": 56,
+        "initial_condition": 1,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 349,
+            "previous_condition": 1,
+            "condition": 6,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000056,
+        "sampling_seed": 5000056
+      },
+      {
+        "case_id": 60,
+        "initial_condition": 2,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000060,
+        "sampling_seed": 5000060
+      },
+      {
+        "case_id": 61,
+        "initial_condition": 2,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000061,
+        "sampling_seed": 5000061
+      },
+      {
+        "case_id": 62,
+        "initial_condition": 2,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000062,
+        "sampling_seed": 5000062
+      },
+      {
+        "case_id": 66,
+        "initial_condition": 2,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 250,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000066,
+        "sampling_seed": 5000066
+      },
+      {
+        "case_id": 67,
+        "initial_condition": 2,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 305,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000067,
+        "sampling_seed": 5000067
+      },
+      {
+        "case_id": 68,
+        "initial_condition": 2,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 337,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000068,
+        "sampling_seed": 5000068
+      },
+      {
+        "case_id": 72,
+        "initial_condition": 2,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 227,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 465,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 696,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000072,
+        "sampling_seed": 5000072
+      },
+      {
+        "case_id": 73,
+        "initial_condition": 2,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 232,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 480,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 716,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000073,
+        "sampling_seed": 5000073
+      },
+      {
+        "case_id": 74,
+        "initial_condition": 2,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 210,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          },
+          {
+            "step": 460,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 699,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000074,
+        "sampling_seed": 5000074
+      },
+      {
+        "case_id": 78,
+        "initial_condition": 2,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 465,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 693,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000078,
+        "sampling_seed": 5000078
+      },
+      {
+        "case_id": 79,
+        "initial_condition": 2,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 463,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          },
+          {
+            "step": 707,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000079,
+        "sampling_seed": 5000079
+      },
+      {
+        "case_id": 80,
+        "initial_condition": 2,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 242,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 466,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 691,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000080,
+        "sampling_seed": 5000080
+      },
+      {
+        "case_id": 84,
+        "initial_condition": 2,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 314,
+            "previous_condition": 2,
+            "condition": 5,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000084,
+        "sampling_seed": 5000084
+      },
+      {
+        "case_id": 85,
+        "initial_condition": 2,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 259,
+            "previous_condition": 2,
+            "condition": 5,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000085,
+        "sampling_seed": 5000085
+      },
+      {
+        "case_id": 86,
+        "initial_condition": 2,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 287,
+            "previous_condition": 2,
+            "condition": 5,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000086,
+        "sampling_seed": 5000086
+      },
+      {
+        "case_id": 90,
+        "initial_condition": 3,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000090,
+        "sampling_seed": 5000090
+      },
+      {
+        "case_id": 91,
+        "initial_condition": 3,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000091,
+        "sampling_seed": 5000091
+      },
+      {
+        "case_id": 92,
+        "initial_condition": 3,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000092,
+        "sampling_seed": 5000092
+      },
+      {
+        "case_id": 96,
+        "initial_condition": 3,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 287,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000096,
+        "sampling_seed": 5000096
+      },
+      {
+        "case_id": 97,
+        "initial_condition": 3,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 281,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000097,
+        "sampling_seed": 5000097
+      },
+      {
+        "case_id": 98,
+        "initial_condition": 3,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 261,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000098,
+        "sampling_seed": 5000098
+      },
+      {
+        "case_id": 102,
+        "initial_condition": 3,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 231,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          },
+          {
+            "step": 467,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          },
+          {
+            "step": 703,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000102,
+        "sampling_seed": 5000102
+      },
+      {
+        "case_id": 103,
+        "initial_condition": 3,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 236,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          },
+          {
+            "step": 474,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          },
+          {
+            "step": 723,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000103,
+        "sampling_seed": 5000103
+      },
+      {
+        "case_id": 104,
+        "initial_condition": 3,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 244,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 489,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          },
+          {
+            "step": 716,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000104,
+        "sampling_seed": 5000104
+      },
+      {
+        "case_id": 108,
+        "initial_condition": 3,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          },
+          {
+            "step": 477,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          },
+          {
+            "step": 729,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000108,
+        "sampling_seed": 5000108
+      },
+      {
+        "case_id": 109,
+        "initial_condition": 3,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 232,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 450,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 712,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000109,
+        "sampling_seed": 5000109
+      },
+      {
+        "case_id": 110,
+        "initial_condition": 3,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 240,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 465,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 696,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000110,
+        "sampling_seed": 5000110
+      },
+      {
+        "case_id": 114,
+        "initial_condition": 3,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 305,
+            "previous_condition": 3,
+            "condition": 4,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000114,
+        "sampling_seed": 5000114
+      },
+      {
+        "case_id": 115,
+        "initial_condition": 3,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 338,
+            "previous_condition": 3,
+            "condition": 4,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000115,
+        "sampling_seed": 5000115
+      },
+      {
+        "case_id": 116,
+        "initial_condition": 3,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 336,
+            "previous_condition": 3,
+            "condition": 4,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000116,
+        "sampling_seed": 5000116
+      },
+      {
+        "case_id": 120,
+        "initial_condition": 4,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000120,
+        "sampling_seed": 5000120
+      },
+      {
+        "case_id": 121,
+        "initial_condition": 4,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000121,
+        "sampling_seed": 5000121
+      },
+      {
+        "case_id": 122,
+        "initial_condition": 4,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000122,
+        "sampling_seed": 5000122
+      },
+      {
+        "case_id": 126,
+        "initial_condition": 4,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 283,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000126,
+        "sampling_seed": 5000126
+      },
+      {
+        "case_id": 127,
+        "initial_condition": 4,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 338,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000127,
+        "sampling_seed": 5000127
+      },
+      {
+        "case_id": 128,
+        "initial_condition": 4,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 327,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000128,
+        "sampling_seed": 5000128
+      },
+      {
+        "case_id": 132,
+        "initial_condition": 4,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 244,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 484,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 716,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000132,
+        "sampling_seed": 5000132
+      },
+      {
+        "case_id": 133,
+        "initial_condition": 4,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 217,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 490,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 703,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000133,
+        "sampling_seed": 5000133
+      },
+      {
+        "case_id": 134,
+        "initial_condition": 4,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 216,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          },
+          {
+            "step": 479,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 729,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000134,
+        "sampling_seed": 5000134
+      },
+      {
+        "case_id": 138,
+        "initial_condition": 4,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 226,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 473,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 730,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000138,
+        "sampling_seed": 5000138
+      },
+      {
+        "case_id": 139,
+        "initial_condition": 4,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 229,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 454,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          },
+          {
+            "step": 721,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000139,
+        "sampling_seed": 5000139
+      },
+      {
+        "case_id": 140,
+        "initial_condition": 4,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 226,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 471,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 710,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000140,
+        "sampling_seed": 5000140
+      },
+      {
+        "case_id": 144,
+        "initial_condition": 4,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 298,
+            "previous_condition": 4,
+            "condition": 3,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000144,
+        "sampling_seed": 5000144
+      },
+      {
+        "case_id": 145,
+        "initial_condition": 4,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 329,
+            "previous_condition": 4,
+            "condition": 3,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000145,
+        "sampling_seed": 5000145
+      },
+      {
+        "case_id": 146,
+        "initial_condition": 4,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 293,
+            "previous_condition": 4,
+            "condition": 3,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000146,
+        "sampling_seed": 5000146
+      },
+      {
+        "case_id": 150,
+        "initial_condition": 5,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000150,
+        "sampling_seed": 5000150
+      },
+      {
+        "case_id": 151,
+        "initial_condition": 5,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000151,
+        "sampling_seed": 5000151
+      },
+      {
+        "case_id": 152,
+        "initial_condition": 5,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000152,
+        "sampling_seed": 5000152
+      },
+      {
+        "case_id": 156,
+        "initial_condition": 5,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 313,
+            "previous_condition": 5,
+            "condition": 1,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000156,
+        "sampling_seed": 5000156
+      },
+      {
+        "case_id": 157,
+        "initial_condition": 5,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 332,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000157,
+        "sampling_seed": 5000157
+      },
+      {
+        "case_id": 158,
+        "initial_condition": 5,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 267,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000158,
+        "sampling_seed": 5000158
+      },
+      {
+        "case_id": 162,
+        "initial_condition": 5,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 220,
+            "previous_condition": 5,
+            "condition": 1,
+            "changed_bits": 4
+          },
+          {
+            "step": 463,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          },
+          {
+            "step": 723,
+            "previous_condition": 5,
+            "condition": 1,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000162,
+        "sampling_seed": 5000162
+      },
+      {
+        "case_id": 163,
+        "initial_condition": 5,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 242,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          },
+          {
+            "step": 488,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          },
+          {
+            "step": 700,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000163,
+        "sampling_seed": 5000163
+      },
+      {
+        "case_id": 164,
+        "initial_condition": 5,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 240,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 450,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          },
+          {
+            "step": 699,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000164,
+        "sampling_seed": 5000164
+      },
+      {
+        "case_id": 168,
+        "initial_condition": 5,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 225,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          },
+          {
+            "step": 455,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          },
+          {
+            "step": 699,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000168,
+        "sampling_seed": 5000168
+      },
+      {
+        "case_id": 169,
+        "initial_condition": 5,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 249,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 485,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 723,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000169,
+        "sampling_seed": 5000169
+      },
+      {
+        "case_id": 170,
+        "initial_condition": 5,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 239,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 464,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 698,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000170,
+        "sampling_seed": 5000170
+      },
+      {
+        "case_id": 174,
+        "initial_condition": 5,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 276,
+            "previous_condition": 5,
+            "condition": 2,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000174,
+        "sampling_seed": 5000174
+      },
+      {
+        "case_id": 175,
+        "initial_condition": 5,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 340,
+            "previous_condition": 5,
+            "condition": 2,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000175,
+        "sampling_seed": 5000175
+      },
+      {
+        "case_id": 176,
+        "initial_condition": 5,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 281,
+            "previous_condition": 5,
+            "condition": 2,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000176,
+        "sampling_seed": 5000176
+      },
+      {
+        "case_id": 180,
+        "initial_condition": 6,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000180,
+        "sampling_seed": 5000180
+      },
+      {
+        "case_id": 181,
+        "initial_condition": 6,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000181,
+        "sampling_seed": 5000181
+      },
+      {
+        "case_id": 182,
+        "initial_condition": 6,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000182,
+        "sampling_seed": 5000182
+      },
+      {
+        "case_id": 186,
+        "initial_condition": 6,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 280,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000186,
+        "sampling_seed": 5000186
+      },
+      {
+        "case_id": 187,
+        "initial_condition": 6,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 350,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000187,
+        "sampling_seed": 5000187
+      },
+      {
+        "case_id": 188,
+        "initial_condition": 6,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 297,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000188,
+        "sampling_seed": 5000188
+      },
+      {
+        "case_id": 192,
+        "initial_condition": 6,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 236,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 472,
+            "previous_condition": 2,
+            "condition": 6,
+            "changed_bits": 4
+          },
+          {
+            "step": 713,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000192,
+        "sampling_seed": 5000192
+      },
+      {
+        "case_id": 193,
+        "initial_condition": 6,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 217,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 450,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 725,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000193,
+        "sampling_seed": 5000193
+      },
+      {
+        "case_id": 194,
+        "initial_condition": 6,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 250,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          },
+          {
+            "step": 477,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          },
+          {
+            "step": 718,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000194,
+        "sampling_seed": 5000194
+      },
+      {
+        "case_id": 198,
+        "initial_condition": 6,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 227,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 481,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 722,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000198,
+        "sampling_seed": 5000198
+      },
+      {
+        "case_id": 199,
+        "initial_condition": 6,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 212,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 462,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          },
+          {
+            "step": 693,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000199,
+        "sampling_seed": 5000199
+      },
+      {
+        "case_id": 200,
+        "initial_condition": 6,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 246,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 474,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 701,
+            "previous_condition": 0,
+            "condition": 1,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000200,
+        "sampling_seed": 5000200
+      },
+      {
+        "case_id": 204,
+        "initial_condition": 6,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 322,
+            "previous_condition": 6,
+            "condition": 1,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000204,
+        "sampling_seed": 5000204
+      },
+      {
+        "case_id": 205,
+        "initial_condition": 6,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 257,
+            "previous_condition": 6,
+            "condition": 1,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000205,
+        "sampling_seed": 5000205
+      },
+      {
+        "case_id": 206,
+        "initial_condition": 6,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 271,
+            "previous_condition": 6,
+            "condition": 1,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000206,
+        "sampling_seed": 5000206
+      },
+      {
+        "case_id": 210,
+        "initial_condition": 7,
+        "family": "stationary",
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000210,
+        "sampling_seed": 5000210
+      },
+      {
+        "case_id": 211,
+        "initial_condition": 7,
+        "family": "stationary",
+        "realization": 1,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000211,
+        "sampling_seed": 5000211
+      },
+      {
+        "case_id": 212,
+        "initial_condition": 7,
+        "family": "stationary",
+        "realization": 2,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 3000212,
+        "sampling_seed": 5000212
+      },
+      {
+        "case_id": 216,
+        "initial_condition": 7,
+        "family": "single_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 262,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000216,
+        "sampling_seed": 5000216
+      },
+      {
+        "case_id": 217,
+        "initial_condition": 7,
+        "family": "single_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 321,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000217,
+        "sampling_seed": 5000217
+      },
+      {
+        "case_id": 218,
+        "initial_condition": 7,
+        "family": "single_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 287,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000218,
+        "sampling_seed": 5000218
+      },
+      {
+        "case_id": 222,
+        "initial_condition": 7,
+        "family": "repeated_factor",
+        "realization": 0,
+        "events": [
+          {
+            "step": 229,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          },
+          {
+            "step": 456,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          },
+          {
+            "step": 727,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000222,
+        "sampling_seed": 5000222
+      },
+      {
+        "case_id": 223,
+        "initial_condition": 7,
+        "family": "repeated_factor",
+        "realization": 1,
+        "events": [
+          {
+            "step": 213,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          },
+          {
+            "step": 450,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          },
+          {
+            "step": 696,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000223,
+        "sampling_seed": 5000223
+      },
+      {
+        "case_id": 224,
+        "initial_condition": 7,
+        "family": "repeated_factor",
+        "realization": 2,
+        "events": [
+          {
+            "step": 235,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          },
+          {
+            "step": 469,
+            "previous_condition": 6,
+            "condition": 7,
+            "changed_bits": 1
+          },
+          {
+            "step": 719,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000224,
+        "sampling_seed": 5000224
+      },
+      {
+        "case_id": 228,
+        "initial_condition": 7,
+        "family": "staggered_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 219,
+            "previous_condition": 7,
+            "condition": 5,
+            "changed_bits": 2
+          },
+          {
+            "step": 476,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 692,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000228,
+        "sampling_seed": 5000228
+      },
+      {
+        "case_id": 229,
+        "initial_condition": 7,
+        "family": "staggered_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 210,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          },
+          {
+            "step": 472,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          },
+          {
+            "step": 705,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000229,
+        "sampling_seed": 5000229
+      },
+      {
+        "case_id": 230,
+        "initial_condition": 7,
+        "family": "staggered_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 228,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          },
+          {
+            "step": 464,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 694,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000230,
+        "sampling_seed": 5000230
+      },
+      {
+        "case_id": 234,
+        "initial_condition": 7,
+        "family": "simultaneous_factors",
+        "realization": 0,
+        "events": [
+          {
+            "step": 338,
+            "previous_condition": 7,
+            "condition": 0,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000234,
+        "sampling_seed": 5000234
+      },
+      {
+        "case_id": 235,
+        "initial_condition": 7,
+        "family": "simultaneous_factors",
+        "realization": 1,
+        "events": [
+          {
+            "step": 295,
+            "previous_condition": 7,
+            "condition": 0,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000235,
+        "sampling_seed": 5000235
+      },
+      {
+        "case_id": 236,
+        "initial_condition": 7,
+        "family": "simultaneous_factors",
+        "realization": 2,
+        "events": [
+          {
+            "step": 256,
+            "previous_condition": 7,
+            "condition": 0,
+            "changed_bits": 7
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 3000236,
+        "sampling_seed": 5000236
+      }
+    ],
+    "reference_speeds": {
+      "0": 8.665410177736629,
+      "1": 7.714725423202755,
+      "2": 10.71913330950984,
+      "3": 6.755077359930404,
+      "4": 6.265773724925266,
+      "5": 4.911451102629693,
+      "6": 6.322732679396511,
+      "7": 6.284607997934107
+    },
+    "batch_size": 8,
+    "recipes": {
+      "vfe_full": {
+        "config": {
+          "horizon": 8,
+          "candidates": 32,
+          "task_samples": 8,
+          "evidence_samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "hazard": 0.06,
+          "discount": 0.99,
+          "information_weight": 0.0,
+          "information_draws": 64,
+          "chunk_size": 2048
+        },
+        "calibration": {
+          "extra_variance": [
+            0.003254879266023636,
+            0.0009307613363489509,
+            0.0003609933191910386,
+            0.0005896992515772581,
+            0.0006571554695256054,
+            0.00048698275350034237,
+            0.0003916389250662178,
+            0.0007473095320165157,
+            0.001023986260406673,
+            0.003315133275464177,
+            0.0013152065221220255,
+            0.0005496125668287277,
+            0.001546551939100027,
+            0.0009254076867364347,
+            0.000720865442417562,
+            0.0009825517190620303,
+            0.001448069466277957
+          ]
+        }
+      },
+      "efe_full": {
+        "config": {
+          "horizon": 8,
+          "candidates": 32,
+          "task_samples": 8,
+          "evidence_samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "hazard": 0.06,
+          "discount": 0.99,
+          "information_weight": 8.030972480773926,
+          "information_draws": 64,
+          "chunk_size": 2048
+        },
+        "calibration": {
+          "extra_variance": [
+            0.003254879266023636,
+            0.0009307613363489509,
+            0.0003609933191910386,
+            0.0005896992515772581,
+            0.0006571554695256054,
+            0.00048698275350034237,
+            0.0003916389250662178,
+            0.0007473095320165157,
+            0.001023986260406673,
+            0.003315133275464177,
+            0.0013152065221220255,
+            0.0005496125668287277,
+            0.001546551939100027,
+            0.0009254076867364347,
+            0.000720865442417562,
+            0.0009825517190620303,
+            0.001448069466277957
+          ]
+        }
+      }
+    }
+  },
+  "revised": {
+    "cases": [
+      {
+        "case_id": 0,
+        "initial_condition": 0,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000000,
+        "sampling_seed": 137000000,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0000"
+      },
+      {
+        "case_id": 1,
+        "initial_condition": 0,
+        "family": "single_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 315,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000001,
+        "sampling_seed": 137000001,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0001"
+      },
+      {
+        "case_id": 2,
+        "initial_condition": 0,
+        "family": "repeated_factor",
+        "factor_mask": 2,
+        "realization": 0,
+        "events": [
+          {
+            "step": 235,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          },
+          {
+            "step": 457,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          },
+          {
+            "step": 702,
+            "previous_condition": 0,
+            "condition": 2,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000002,
+        "sampling_seed": 137000002,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0002"
+      },
+      {
+        "case_id": 3,
+        "initial_condition": 1,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000003,
+        "sampling_seed": 137000003,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0003"
+      },
+      {
+        "case_id": 4,
+        "initial_condition": 1,
+        "family": "single_factor",
+        "factor_mask": 1,
+        "realization": 0,
+        "events": [
+          {
+            "step": 349,
+            "previous_condition": 1,
+            "condition": 0,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000004,
+        "sampling_seed": 137000004,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0004"
+      },
+      {
+        "case_id": 5,
+        "initial_condition": 1,
+        "family": "repeated_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 244,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          },
+          {
+            "step": 460,
+            "previous_condition": 5,
+            "condition": 1,
+            "changed_bits": 4
+          },
+          {
+            "step": 706,
+            "previous_condition": 1,
+            "condition": 5,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000005,
+        "sampling_seed": 137000005,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0005"
+      },
+      {
+        "case_id": 6,
+        "initial_condition": 2,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000006,
+        "sampling_seed": 137000006,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0006"
+      },
+      {
+        "case_id": 7,
+        "initial_condition": 2,
+        "family": "single_factor",
+        "factor_mask": 2,
+        "realization": 0,
+        "events": [
+          {
+            "step": 275,
+            "previous_condition": 2,
+            "condition": 0,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000007,
+        "sampling_seed": 137000007,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0007"
+      },
+      {
+        "case_id": 8,
+        "initial_condition": 2,
+        "family": "repeated_factor",
+        "factor_mask": 1,
+        "realization": 0,
+        "events": [
+          {
+            "step": 215,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          },
+          {
+            "step": 450,
+            "previous_condition": 3,
+            "condition": 2,
+            "changed_bits": 1
+          },
+          {
+            "step": 729,
+            "previous_condition": 2,
+            "condition": 3,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000008,
+        "sampling_seed": 137000008,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0008"
+      },
+      {
+        "case_id": 9,
+        "initial_condition": 3,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000009,
+        "sampling_seed": 137000009,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0009"
+      },
+      {
+        "case_id": 10,
+        "initial_condition": 3,
+        "family": "single_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 278,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000010,
+        "sampling_seed": 137000010,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0010"
+      },
+      {
+        "case_id": 11,
+        "initial_condition": 3,
+        "family": "repeated_factor",
+        "factor_mask": 2,
+        "realization": 0,
+        "events": [
+          {
+            "step": 243,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          },
+          {
+            "step": 463,
+            "previous_condition": 1,
+            "condition": 3,
+            "changed_bits": 2
+          },
+          {
+            "step": 702,
+            "previous_condition": 3,
+            "condition": 1,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000011,
+        "sampling_seed": 137000011,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0011"
+      },
+      {
+        "case_id": 12,
+        "initial_condition": 4,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000012,
+        "sampling_seed": 137000012,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0012"
+      },
+      {
+        "case_id": 13,
+        "initial_condition": 4,
+        "family": "single_factor",
+        "factor_mask": 1,
+        "realization": 0,
+        "events": [
+          {
+            "step": 274,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000013,
+        "sampling_seed": 137000013,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0013"
+      },
+      {
+        "case_id": 14,
+        "initial_condition": 4,
+        "family": "repeated_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 211,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          },
+          {
+            "step": 482,
+            "previous_condition": 0,
+            "condition": 4,
+            "changed_bits": 4
+          },
+          {
+            "step": 695,
+            "previous_condition": 4,
+            "condition": 0,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000014,
+        "sampling_seed": 137000014,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0014"
+      },
+      {
+        "case_id": 15,
+        "initial_condition": 5,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000015,
+        "sampling_seed": 137000015,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0015"
+      },
+      {
+        "case_id": 16,
+        "initial_condition": 5,
+        "family": "single_factor",
+        "factor_mask": 2,
+        "realization": 0,
+        "events": [
+          {
+            "step": 287,
+            "previous_condition": 5,
+            "condition": 7,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000016,
+        "sampling_seed": 137000016,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0016"
+      },
+      {
+        "case_id": 17,
+        "initial_condition": 5,
+        "family": "repeated_factor",
+        "factor_mask": 1,
+        "realization": 0,
+        "events": [
+          {
+            "step": 248,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          },
+          {
+            "step": 468,
+            "previous_condition": 4,
+            "condition": 5,
+            "changed_bits": 1
+          },
+          {
+            "step": 714,
+            "previous_condition": 5,
+            "condition": 4,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000017,
+        "sampling_seed": 137000017,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0017"
+      },
+      {
+        "case_id": 18,
+        "initial_condition": 6,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000018,
+        "sampling_seed": 137000018,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0018"
+      },
+      {
+        "case_id": 19,
+        "initial_condition": 6,
+        "family": "single_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 304,
+            "previous_condition": 6,
+            "condition": 2,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000019,
+        "sampling_seed": 137000019,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0019"
+      },
+      {
+        "case_id": 20,
+        "initial_condition": 6,
+        "family": "repeated_factor",
+        "factor_mask": 2,
+        "realization": 0,
+        "events": [
+          {
+            "step": 242,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          },
+          {
+            "step": 487,
+            "previous_condition": 4,
+            "condition": 6,
+            "changed_bits": 2
+          },
+          {
+            "step": 712,
+            "previous_condition": 6,
+            "condition": 4,
+            "changed_bits": 2
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000020,
+        "sampling_seed": 137000020,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0020"
+      },
+      {
+        "case_id": 21,
+        "initial_condition": 7,
+        "family": "stationary",
+        "factor_mask": 0,
+        "realization": 0,
+        "events": [],
+        "steps": 1000,
+        "reset_seed": 135000021,
+        "sampling_seed": 137000021,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0021"
+      },
+      {
+        "case_id": 22,
+        "initial_condition": 7,
+        "family": "single_factor",
+        "factor_mask": 1,
+        "realization": 0,
+        "events": [
+          {
+            "step": 264,
+            "previous_condition": 7,
+            "condition": 6,
+            "changed_bits": 1
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000022,
+        "sampling_seed": 137000022,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0022"
+      },
+      {
+        "case_id": 23,
+        "initial_condition": 7,
+        "family": "repeated_factor",
+        "factor_mask": 4,
+        "realization": 0,
+        "events": [
+          {
+            "step": 220,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          },
+          {
+            "step": 479,
+            "previous_condition": 3,
+            "condition": 7,
+            "changed_bits": 4
+          },
+          {
+            "step": 713,
+            "previous_condition": 7,
+            "condition": 3,
+            "changed_bits": 4
+          }
+        ],
+        "steps": 1000,
+        "reset_seed": 135000023,
+        "sampling_seed": 137000023,
+        "ancestry_id": "paper2_policy_preservation_20261014:confirmation:0023"
+      }
+    ],
+    "reference_speeds": {
+      "0": 8.665410177736629,
+      "1": 7.714725423202755,
+      "2": 10.71913330950984,
+      "3": 6.755077359930404,
+      "4": 6.265773724925266,
+      "5": 4.911451102629693,
+      "6": 6.322732679396511,
+      "7": 6.284607997934107
+    },
+    "batch_size": 8,
+    "recipes": {
+      "revised_vfe": {
+        "checkpoint_updates": 100000,
+        "calibration": {
+          "state": "calibrated",
+          "checkpoint_updates": 100000,
+          "arm": "R",
+          "split": "calibration",
+          "cases": 4096,
+          "cases_per_condition": 512,
+          "seed": 13,
+          "samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "feature_map": "(native_next_observation-current_observation-delta_mean)/delta_std",
+          "extra_variance": [
+            0.003254879266023636,
+            0.0009307613363489509,
+            0.0003609933191910386,
+            0.0005896992515772581,
+            0.0006571554695256054,
+            0.00048698275350034237,
+            0.0003916389250662178,
+            0.0007473095320165157,
+            0.001023986260406673,
+            0.003315133275464177,
+            0.0013152065221220255,
+            0.0005496125668287277,
+            0.001546551939100027,
+            0.0009254076867364347,
+            0.000720865442417562,
+            0.0009825517190620303,
+            0.001448069466277957
+          ],
+          "floor_variance": 0.0001,
+          "calibration_nll": -36.65073776245117,
+          "calibration_95pct_coordinate_coverage": 0.9646570682525635,
+          "interpretation": "In-sample calibration diagnostics; held-out quality still requires E0"
+        },
+        "law_spec": {
+          "schema_version": 1,
+          "family": "gaussian_residual",
+          "df": null,
+          "scale_squared": [
+            1.4195724397746894,
+            1.7627839432124794,
+            1.6070232872134427,
+            1.74646621451366,
+            1.9558598749956013,
+            1.7307454277542047,
+            1.8366723888501677,
+            1.4620956562499032,
+            1.5051630284593176,
+            1.445452848433068,
+            1.8809796478936014,
+            1.249228202581948,
+            1.3713306694027783,
+            1.4625407439683433,
+            1.5443561341325314,
+            1.724906231880147,
+            1.7861801711939809
+          ],
+          "bias": [
+            0.014247951452925576,
+            -0.02152097061895283,
+            -0.008549847830226555,
+            -0.048254694897937975,
+            0.06223323923879642,
+            0.081277826140524,
+            0.07466396746243792,
+            -0.06256428213571753,
+            -0.07193083002086223,
+            -0.006026854880267393,
+            0.005599569965504934,
+            0.009930384176035862,
+            0.022322528980551305,
+            0.057324089995712306,
+            0.02860280555827826,
+            0.01737143259845127,
+            -0.05980726118719785
+          ],
+          "parameterization": "location=mean+bias*sqrt(base_variance); scale2=scale_squared*base_variance"
+        },
+        "config": {
+          "horizon": 8,
+          "candidates": 32,
+          "task_samples": 8,
+          "evidence_samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "hazard": 0.06,
+          "discount": 0.99,
+          "information_weight": 0.0,
+          "information_draws": 64,
+          "chunk_size": 2048
+        },
+        "selection": {
+          "state": "finite_temperature_selected_on_development",
+          "method": "oracle_soft_0p5",
+          "temperature_multiplier": 0.5,
+          "cost_scale": 0.16412067413330078,
+          "rule": "family-balanced full return; exact ties favor larger temperature",
+          "hidden_control_benefit_established": false,
+          "information_benefit_established": false
+        },
+        "receives_truth": false
+      },
+      "revised_efe": {
+        "checkpoint_updates": 100000,
+        "calibration": {
+          "state": "calibrated",
+          "checkpoint_updates": 100000,
+          "arm": "R",
+          "split": "calibration",
+          "cases": 4096,
+          "cases_per_condition": 512,
+          "seed": 13,
+          "samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "feature_map": "(native_next_observation-current_observation-delta_mean)/delta_std",
+          "extra_variance": [
+            0.003254879266023636,
+            0.0009307613363489509,
+            0.0003609933191910386,
+            0.0005896992515772581,
+            0.0006571554695256054,
+            0.00048698275350034237,
+            0.0003916389250662178,
+            0.0007473095320165157,
+            0.001023986260406673,
+            0.003315133275464177,
+            0.0013152065221220255,
+            0.0005496125668287277,
+            0.001546551939100027,
+            0.0009254076867364347,
+            0.000720865442417562,
+            0.0009825517190620303,
+            0.001448069466277957
+          ],
+          "floor_variance": 0.0001,
+          "calibration_nll": -36.65073776245117,
+          "calibration_95pct_coordinate_coverage": 0.9646570682525635,
+          "interpretation": "In-sample calibration diagnostics; held-out quality still requires E0"
+        },
+        "law_spec": {
+          "schema_version": 1,
+          "family": "gaussian_residual",
+          "df": null,
+          "scale_squared": [
+            1.4195724397746894,
+            1.7627839432124794,
+            1.6070232872134427,
+            1.74646621451366,
+            1.9558598749956013,
+            1.7307454277542047,
+            1.8366723888501677,
+            1.4620956562499032,
+            1.5051630284593176,
+            1.445452848433068,
+            1.8809796478936014,
+            1.249228202581948,
+            1.3713306694027783,
+            1.4625407439683433,
+            1.5443561341325314,
+            1.724906231880147,
+            1.7861801711939809
+          ],
+          "bias": [
+            0.014247951452925576,
+            -0.02152097061895283,
+            -0.008549847830226555,
+            -0.048254694897937975,
+            0.06223323923879642,
+            0.081277826140524,
+            0.07466396746243792,
+            -0.06256428213571753,
+            -0.07193083002086223,
+            -0.006026854880267393,
+            0.005599569965504934,
+            0.009930384176035862,
+            0.022322528980551305,
+            0.057324089995712306,
+            0.02860280555827826,
+            0.01737143259845127,
+            -0.05980726118719785
+          ],
+          "parameterization": "location=mean+bias*sqrt(base_variance); scale2=scale_squared*base_variance"
+        },
+        "config": {
+          "horizon": 8,
+          "candidates": 32,
+          "task_samples": 8,
+          "evidence_samples": 16,
+          "sampling_steps": 8,
+          "temperature": 1.0,
+          "hazard": 0.06,
+          "discount": 0.99,
+          "information_weight": 8.030972480773926,
+          "information_draws": 64,
+          "chunk_size": 2048
+        },
+        "selection": {
+          "state": "finite_temperature_selected_on_development",
+          "method": "oracle_soft_0p5",
+          "temperature_multiplier": 0.5,
+          "cost_scale": 0.16412067413330078,
+          "rule": "family-balanced full return; exact ties favor larger temperature",
+          "hidden_control_benefit_established": false,
+          "information_benefit_established": false
+        },
+        "receives_truth": false
+      }
+    }
+  }
+}

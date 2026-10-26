@@ -1,0 +1,113 @@
+{
+  "state": "fixed_prelaunch_design",
+  "target_condition": 4,
+  "target_gravity": 5,
+  "target_steps_per_parent": 500,
+  "target_train_roots": [
+    617100001,
+    617100002
+  ],
+  "target_dev_roots": [
+    617110001,
+    617110002
+  ],
+  "behavior_kinds": [
+    "expert",
+    "random",
+    "weak"
+  ],
+  "arms": [
+    {
+      "id": "replay_only",
+      "expert_steps": 0,
+      "random_steps": 0,
+      "weak_steps": 0
+    },
+    {
+      "id": "expert_1000",
+      "expert_steps": 1000,
+      "random_steps": 0,
+      "weak_steps": 0
+    }
+  ],
+  "methods": [
+    "shared",
+    "history",
+    "dadp"
+  ],
+  "max_optimizer_updates": 250,
+  "checkpoints": [
+    0,
+    100,
+    250
+  ],
+  "batch_size": 256,
+  "learning_rate": 1e-05,
+  "ema_rate": 0.99,
+  "seed": 13,
+  "target_fraction": 0.5,
+  "source_replay": {
+    "one_x": 0.25,
+    "three_x": 0.25,
+    "train_expert_parents_per_cell": 4,
+    "dev_expert_parents_per_cell": 2
+  },
+  "dadp_schedule": [
+    {
+      "checkpoint": 100,
+      "representation_updates": 20,
+      "policy_updates": 80
+    },
+    {
+      "checkpoint": 250,
+      "representation_updates": 30,
+      "policy_updates": 120
+    }
+  ],
+  "selection": "minimum fixed DEV relative-to-baseline loss, target/source equal; baseline eligible, ties choose earlier",
+  "base_shared": "final_map_preference_5000",
+  "calibration": "Fixed final CAL temperature .007242573030413831; no refit; native final MAP + preference selection unchanged",
+  "new_collection_transitions": 0,
+  "evaluation_case_templates": [
+    {
+      "id": "target_a",
+      "gravity": 5,
+      "condition": 4,
+      "steps": 500,
+      "reset_seed": 617200001,
+      "sampling_seed": 617300000,
+      "events": []
+    },
+    {
+      "id": "target_b",
+      "gravity": 5,
+      "condition": 4,
+      "steps": 500,
+      "reset_seed": 617200002,
+      "sampling_seed": 617310000,
+      "events": []
+    },
+    {
+      "id": "retention_1",
+      "gravity": 5,
+      "condition": 0,
+      "steps": 500,
+      "reset_seed": 617200003,
+      "sampling_seed": 617320000,
+      "events": []
+    },
+    {
+      "id": "retention_3",
+      "gravity": 3,
+      "condition": 4,
+      "steps": 500,
+      "reset_seed": 617200004,
+      "sampling_seed": 617330000,
+      "events": []
+    }
+  ],
+  "evaluation_methods": [
+    "genaif",
+    "oracle"
+  ]
+}

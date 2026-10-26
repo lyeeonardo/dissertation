@@ -1,0 +1,134 @@
+[
+  {
+    "case_id": "stock_test_p000",
+    "cohort": "fresh_test",
+    "weather": "dry",
+    "parent": {
+      "parent_id": "stock_test_p000",
+      "parent_number": 7000,
+      "split": "test",
+      "weather": "dry",
+      "weather_id": 0,
+      "phase_days": 4.783104677857869,
+      "flow_scale": 0.8883961209960538,
+      "carbon_scale": 0.964349225961702,
+      "nitrogen_scale": 1.0098090332959302,
+      "wave_amplitude": 0.032043831394336086,
+      "wave_phase": 0.09942326320987377,
+      "sensor_seed": 77031000,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  },
+  {
+    "case_id": "stock_test_p001",
+    "cohort": "fresh_test",
+    "weather": "rain",
+    "parent": {
+      "parent_id": "stock_test_p001",
+      "parent_number": 7001,
+      "split": "test",
+      "weather": "rain",
+      "weather_id": 1,
+      "phase_days": 1.2713700493758466,
+      "flow_scale": 1.1347077367769332,
+      "carbon_scale": 0.9140260584105804,
+      "nitrogen_scale": 0.8911532554390696,
+      "wave_amplitude": 0.05545279745296275,
+      "wave_phase": 1.6318715929326788,
+      "sensor_seed": 77031001,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  },
+  {
+    "case_id": "stock_test_p002",
+    "cohort": "fresh_test",
+    "weather": "storm",
+    "parent": {
+      "parent_id": "stock_test_p002",
+      "parent_number": 7002,
+      "split": "test",
+      "weather": "storm",
+      "weather_id": 2,
+      "phase_days": 1.0149079563681571,
+      "flow_scale": 0.8705090410358232,
+      "carbon_scale": 0.908233147890971,
+      "nitrogen_scale": 0.9412119396081686,
+      "wave_amplitude": 0.04183362934665534,
+      "wave_phase": 3.6673920994914115,
+      "sensor_seed": 77031002,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  },
+  {
+    "case_id": "stock_test_p003",
+    "cohort": "fresh_test",
+    "weather": "dry",
+    "parent": {
+      "parent_id": "stock_test_p003",
+      "parent_number": 7003,
+      "split": "test",
+      "weather": "dry",
+      "weather_id": 0,
+      "phase_days": 1.0738303198555448,
+      "flow_scale": 0.9501234116208114,
+      "carbon_scale": 0.9694492933016258,
+      "nitrogen_scale": 0.856798776689366,
+      "wave_amplitude": 0.02441716471374721,
+      "wave_phase": 5.787613349615575,
+      "sensor_seed": 77031003,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  },
+  {
+    "case_id": "stock_test_p004",
+    "cohort": "fresh_test",
+    "weather": "rain",
+    "parent": {
+      "parent_id": "stock_test_p004",
+      "parent_number": 7004,
+      "split": "test",
+      "weather": "rain",
+      "weather_id": 1,
+      "phase_days": 9.09929662339992,
+      "flow_scale": 0.9395519430967567,
+      "carbon_scale": 1.1432522151024596,
+      "nitrogen_scale": 0.9595641794578847,
+      "wave_amplitude": 0.06499818313912735,
+      "wave_phase": 4.422340419622821,
+      "sensor_seed": 77031004,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  },
+  {
+    "case_id": "stock_test_p005",
+    "cohort": "fresh_test",
+    "weather": "storm",
+    "parent": {
+      "parent_id": "stock_test_p005",
+      "parent_number": 7005,
+      "split": "test",
+      "weather": "storm",
+      "weather_id": 2,
+      "phase_days": 10.12997080494805,
+      "flow_scale": 1.0033667790777014,
+      "carbon_scale": 0.8917386788672474,
+      "nitrogen_scale": 0.8946964361940122,
+      "wave_amplitude": 0.07283719654177424,
+      "wave_phase": 5.535252833611903,
+      "sensor_seed": 77031005,
+      "initial_state": "Han published legacy initial state",
+      "observations_available": false,
+      "physical_outcomes_available": false
+    }
+  }
+]

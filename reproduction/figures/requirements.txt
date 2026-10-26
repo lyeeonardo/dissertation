@@ -1,0 +1,4 @@
+# Python 3.11 or newer.
+numpy==2.5.4
+matplotlib==3.10.6
+PyMuPDF==2.0

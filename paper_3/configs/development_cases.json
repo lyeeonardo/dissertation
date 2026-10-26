@@ -1,0 +1,65 @@
+[
+  {
+    "case_id": "validation_p000",
+    "cohort": "development",
+    "weather": "dry",
+    "parent": {
+      "parent_id": "validation_p000",
+      "parent_number": 20,
+      "split": "validation",
+      "weather": "dry",
+      "weather_id": 0,
+      "phase_days": 8.424706837147944,
+      "flow_scale": 1.0455712341370869,
+      "carbon_scale": 0.9200454754691636,
+      "nitrogen_scale": 1.1329586828702287,
+      "wave_amplitude": 0.05758751454579264,
+      "wave_phase": 0.47368812370822094,
+      "sensor_seed": 20281194,
+      "initial_state": "Han published initial states; paper_protocol.published_initial_state",
+      "source_split": "validation"
+    }
+  },
+  {
+    "case_id": "validation_p001",
+    "cohort": "development",
+    "weather": "rain",
+    "parent": {
+      "parent_id": "validation_p001",
+      "parent_number": 21,
+      "split": "validation",
+      "weather": "rain",
+      "weather_id": 1,
+      "phase_days": 5.742722875095302,
+      "flow_scale": 0.8859701536782447,
+      "carbon_scale": 0.9392677477822297,
+      "nitrogen_scale": 0.9425357292853433,
+      "wave_amplitude": 0.030535722412336076,
+      "wave_phase": 2.559619268580446,
+      "sensor_seed": 20282203,
+      "initial_state": "Han published initial states; paper_protocol.published_initial_state",
+      "source_split": "validation"
+    }
+  },
+  {
+    "case_id": "validation_p002",
+    "cohort": "development",
+    "weather": "storm",
+    "parent": {
+      "parent_id": "validation_p002",
+      "parent_number": 22,
+      "split": "validation",
+      "weather": "storm",
+      "weather_id": 2,
+      "phase_days": 1.5395949706760936,
+      "flow_scale": 1.1432051110003436,
+      "carbon_scale": 0.8943795905243516,
+      "nitrogen_scale": 0.8697967031232168,
+      "wave_amplitude": 0.07051831227613252,
+      "wave_phase": 2.3974629922291313,
+      "sensor_seed": 20283212,
+      "initial_state": "Han published initial states; paper_protocol.published_initial_state",
+      "source_split": "validation"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "threshold": 0.2490178992357052,
+  "quantile": 0.95,
+  "method": "linear",
+  "consecutive_steps": 4,
+  "calibration_cases": [
+    "validation_p000",
+    "validation_p001",
+    "validation_p002"
+  ],
+  "performance_labels_used": false
+}
