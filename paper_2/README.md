@@ -17,8 +17,9 @@ python -m pip install .
 python -m work2.run list
 ```
 
-Dependencies are pinned in `pyproject.toml`. Training and source collection
-require CUDA; evaluation supports `--device cpu` or `cuda`. Fresh training and
+Dependencies are pinned in `pyproject.toml`. The commands below use a POSIX
+shell. Training and source collection require an NVIDIA GPU with CUDA;
+evaluation supports `--device cpu` or `cuda`. Fresh training and
 different hardware can produce different trajectories and numerical results.
 Use new output directories for independent runs. Installation starts no runs.
 
@@ -91,14 +92,17 @@ selected base fit and labels its actual update count; without it, replay require
 the original selected 62,000-update base. Replay keeps the fixed final update
 choice, with DEV losses recorded diagnostically.
 
-Create `inputs/assets.json` with paths relative to that JSON:
+Create the evaluation asset map; its paths resolve relative to the JSON file:
 
-```json
-{"checkpoints": {
-  "shared.pt": "../runs/final-replay/checkpoints/step_0005000.pt",
-  "history.pt": "base/models/history_R/best.pt",
-  "dadp.pt": "base/models/dadp_R/policy/selected.pt"
-}}
+```sh
+python - <<'PY'
+from work2.io import save
+save('inputs/assets.json', {'checkpoints': {
+    'shared.pt': '../runs/final-replay/checkpoints/step_0005000.pt',
+    'history.pt': 'base/models/history_R/best.pt',
+    'dadp.pt': 'base/models/dadp_R/policy/selected.pt',
+}})
+PY
 ```
 
 Checkpoints carry the model configuration, frozen normalization and EMA weights.
@@ -121,9 +125,23 @@ save('inputs/adaptation.json', {'models': models})
 PY
 for method in shared history dadp; do
   for arm in replay_only expert_1000; do
-    python -m work2.training.adapt --method "$method" --arm "$arm" --inputs inputs/adaptation.json --pools inputs/target/pools.json --output "runs/adaptation/$method/$arm"
+    python -m work2.training.adapt --method "$method" --arm "$arm" --inputs inputs/adaptation.json --pools inputs/target/pools.json --output runs/adaptation
   done
 done
+```
+
+The trainer writes each selected checkpoint to
+`runs/adaptation/fits/METHOD/ARM/best.pt`. Register those six selected fits:
+
+```sh
+python - <<'PY'
+from work2.io import read, save
+assets = read('inputs/assets.json')
+for method in ('shared', 'history', 'dadp'):
+    for arm in ('replay_only', 'expert_1000'):
+        assets['checkpoints'][f'{method}_{arm}.pt'] = f'../runs/adaptation/fits/{method}/{arm}/best.pt'
+save('inputs/assets.json', assets)
+PY
 ```
 
 Adaptation compares fixed DEV losses at 0, 100 and 250 updates. Pool manifests
@@ -133,9 +151,15 @@ Relative `path` and `checkpoint` fields resolve beside their manifest.
 ## Evaluate and analyze
 
 ```sh
-python -m work2.run --study benchmark --assets inputs/assets.json --output runs/benchmark --regenerated-checkpoints
 python -m work2.support.expert_reference --data-root inputs/base --refreshed-data inputs/refreshed/data/gravity_3 --output runs/expert_reference.csv
-python -m work2.report --input runs/benchmark --expert-reference runs/expert_reference.csv --output runs/benchmark-report.json
+for study in benchmark preference_a preference_b all_conditions gravity_sweep; do
+  python -m work2.run --study "$study" --assets inputs/assets.json --output "runs/$study" --regenerated-checkpoints
+  python -m work2.report --input "runs/$study" --expert-reference runs/expert_reference.csv --output "runs/$study-report.json"
+done
+for arm in zero replay_only expert_1000; do
+  python -m work2.run --study adaptation --arm "$arm" --assets inputs/assets.json --output "runs/adaptation-$arm" --regenerated-checkpoints
+done
+python -m work2.report --input runs/adaptation-zero --input runs/adaptation-replay_only --input runs/adaptation-expert_1000 --output runs/adaptation-report.json
 ```
 
 `--regenerated-checkpoints` labels new fits. Without it, evaluation enforces the
@@ -150,11 +174,9 @@ exact original checkpoint hashes. `--list` prints a study without execution;
 | `gravity_sweep` | Seven actual gravity levels, fixed 1×/3× model bank, 500 steps each |
 | `adaptation` | Two target and two source-retention resets, four controllers |
 
-For adaptation, evaluate `--arm zero`, `replay_only` and `expert_1000` into
-separate directories. Add the six adapted paths to the assets mapping under
-`shared_replay_only.pt`, `history_replay_only.pt`, `dadp_replay_only.pt`, and
-corresponding `expert_1000` names. Each training output supplies `best.pt`.
-Combine arms by repeating `work2.report --input`.
+The adaptation commands use the six registered adapted checkpoints plus the
+original three for `zero`. Repeating `work2.report --input` combines the three
+arms without treating them as independent training repetitions.
 
 Reporting recomputes metrics from generated traces and labels missing cases or
 short episodes. The expert-reference generator derives eight stationary TRAIN
@@ -165,7 +187,16 @@ illustrations retain that interpretation; predicted alternatives are not
 executed counterfactuals. The privileged reference receives evaluator truth;
 the other controllers do not.
 
-See the repository's figure-generation README for plotting generated reports.
+Export the adaptation and gravity traces for the numerical figure builders:
+
+```sh
+python ../reproduction/figures/export_work2.py --run runs/adaptation-zero --run runs/adaptation-replay_only --run runs/adaptation-expert_1000 --run runs/gravity_sweep --output runs/figure-inputs
+```
+
+Then follow the [figure-generation instructions](../reproduction/figures/README.md)
+in the separate plotting environment. The supplied `work2-adaptation` and
+`work2-gravity` builders consume these generated inputs. Other study summaries
+are the JSON reports written above; static dissertation artwork is excluded.
 
 ## Calibration and supporting studies
 

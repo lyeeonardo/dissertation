@@ -1,4 +1,4 @@
-# Python 3.11 or newer.
+# Python 3.12 or newer (required by the pinned NumPy release).
 numpy==2.5.4
 matplotlib==3.10.6
 PyMuPDF==2.0

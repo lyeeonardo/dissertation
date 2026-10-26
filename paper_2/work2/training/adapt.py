@@ -1,4 +1,4 @@
-"""Bounded native-objective adaptation. Default CLI is metadata only.
+"""Bounded native-objective adaptation. The CLI executes the declared 250-update fit.
 
 DEV selection averages baseline-normalized native components, using the fixed
 additive ratio (loss+1e-8)/(baseline+1e-8) to retain valid zero losses. For each component,

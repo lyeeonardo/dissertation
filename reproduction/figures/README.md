@@ -6,7 +6,7 @@ and Work 3 include the code to collect data, train models, run the retained
 studies and export the numerical inputs used here. Additional numerical summaries are
 produced by the reporting commands in the project READMEs.
 
-Use Python 3.11 or newer in a separate plotting environment. From the repository
+Use Python 3.12 or newer in a separate plotting environment. From the repository
 root:
 
 ```bash
